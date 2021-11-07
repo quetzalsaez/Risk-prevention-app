@@ -16,6 +16,7 @@ void main() async {
       await sentry.captureException(
         exception: error,
         stackTrace: stackTrace
+        
       );
     }
   );
